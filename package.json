@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "blog-messages-nodejs-google-rcs_weather_forecast",
+  "version": "1.0.0",
+  "description": "Code for a Vonage RCS blog post about sending AI-generated weather image forecasts via RCS.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vonage-Community/blog-messages-nodejs-google-rcs_weather_forecast.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Vonage-Community/blog-messages-nodejs-google-rcs_weather_forecast/issues"
+  },
+  "homepage": "https://github.com/Vonage-Community/blog-messages-nodejs-google-rcs_weather_forecast#readme",
+  "dependencies": {
+    "@vonage/auth": "^1.11.0",
+    "@vonage/jwt": "^1.11.0",
+    "@vonage/messages": "^1.15.0",
+    "@vonage/server-sdk": "^3.16.0",
+    "axios": "^1.10.0",
+    "dotenv": "^16.4.5",
+    "express": "4.19.2"
+  }
+}
